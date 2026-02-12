@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News</title>
+    <style>
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Page Content */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Sports</a>
+        <a href="#">Technology</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <h1>Daily News</h1>
+
+        <!-- News Article -->
+        <h2>Breaking News: Space Exploration</h2>
+        <img src="space-news.jpg" alt="Space News">
+        <p>NASA launches a new mission. <a href="https://www.nasa.gov" target="_blank">Read more</a></p>
+
+        <!-- Embedded YouTube Video -->
+        <h2>Global Tech Conference</h2>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                frameborder="0" allowfullscreen></iframe>
+
+        <!-- Multimedia -->
+        <h2>News Podcast</h2>
+        <audio controls>
+            <source src="news-podcast.mp3" type="audio/mpeg">
+        </audio>
+
+        <h2>News Clip</h2>
+        <video controls>
+            <source src="news-clip.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+</html> 
